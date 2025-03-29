@@ -162,7 +162,7 @@ const ChatBot = () => {
             {/* Bot Typing Animation */}
             {isLoading && (
               <div className="self-start p-4 rounded-2xl w-full text-gray-400 animate-pulse">
-                <div className="flex w-1/2 ml-7 justify-center items-center space-x-1">
+                <div className="flex md:w-1/2 w-full md:ml-7 ml-3 md:justify-center md:items-center space-x-1">
                   <span className="animate-bounce">●</span>
                   <span className="animate-bounce delay-200">●</span>
                   <span className="animate-bounce delay-500">●</span>

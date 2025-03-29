@@ -1065,7 +1065,7 @@ const ChatPage = () => {
                                 <div className="bg-white p-6 rounded-lg shadow-lg w-96 max-h-[90vh] overflow-y-auto">
                                     <h1><strong>Create a Group</strong></h1>
                                     <br />
-                                    <input label='Group Name' className='w-[90%] ' value={groupName} onChange={handlenamechange} />
+                                    <input type='text' style={{border:'2px solid black', height:'50px', width:'90%', paddingLeft:'10px', marginBottom:'10px'}} placeholder='Group Name' value={groupName} onChange={handlenamechange} />
 
                                     <Autocomplete
                                         disablePortal
